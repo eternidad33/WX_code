@@ -75,3 +75,21 @@ view组件支持使用style,class属性来设置组件的样式，静态的样�
 |      `white-space`      |       文档中的空白处       |
 |    `text-decoration`    |        文本修饰样式        |
 | `text-decoration-color` |        文本修饰颜色        |
+
+## 图片和声音
+
+`image`标签通过`src`设置路径，`bindtap`绑定事件函数
+
+`<image src="{{imgSrc}}" bindtap="tapCat"></image>`
+
+然后在JS文件中对`imgSrc`赋值，编写`tapCat`函数
+
+1. 使用音频
+
+   首先要利用API函数`wx.createInnerAudioContext()`创建音频上下文，然后设置该上下文的`src`，并利用`play()`函数播放音频。
+
+2. 数据绑定
+   WXM文件中的动态数据通过`{{}}`符号与JS文件中的数据进行绑定，这样JS中的数据就可以传给WXML文件。这种传递是单向的。
+
+3. 事件绑定。在WXM文件组件标签内利用`bind…=函数名`，绑定组件事件与函数，并在JS文件中定义该事件函数。
+
