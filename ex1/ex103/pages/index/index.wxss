@@ -1,0 +1,17 @@
+/**index.wxss**/
+.textStyle01{
+  color: red;
+  letter-spacing: 5px;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-indent: 50px;
+  line-height: 30px;
+  white-space: normal;
+}
+.textStyle02{
+  text-align: justify;
+  word-spacing: 20px;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+}
