@@ -1,0 +1,18 @@
+/**index.wxss**/
+
+.text1 {
+  color: #0f0;
+  letter-spacing: 2px; /* 字符间距 */
+  text-align: left; /* 对齐方式 */
+  text-indent: 20px; /* 首行缩进 */
+  text-decoration: underline; /* 装饰线*/
+  text-decoration-color: #00f;
+  line-height: 30px; /*行高*/
+  white-space: normal;
+}
+.text2{
+  text-align: justify;/*两端对齐*/
+  word-spacing: 2px;/*单词间距*/
+  text-transform: uppercase;/*字体大小写*/
+  white-space: pre-wrap;/*保留空白符*/
+}

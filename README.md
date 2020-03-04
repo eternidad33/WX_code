@@ -61,3 +61,17 @@ view组件支持使用style,class属性来设置组件的样式，静态的样�
 - 在 `app.wxss`中定义的样式类属于全局样式类，可以在项目的任何文件中使用
 
 - 在`index.wxss`中定义的样式类一般只在`index wxml`中使用。
+
+## 文本样式设置
+
+
+|        属性名称         |            含义            |
+| :---------------------: | :------------------------: |
+|         `color`         |          字体颜色          |
+|      `text-align`       |       文本的对齐方式       |
+|      `text-indent`      |          首行缩进          |
+|    `letter-spacing`     |       字母之间的距离       |
+|     `word-spacing`      | 单词间距，以空格来区分单词 |
+|      `white-space`      |       文档中的空白处       |
+|    `text-decoration`    |        文本修饰样式        |
+| `text-decoration-color` |        文本修饰颜色        |
