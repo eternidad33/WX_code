@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="box">
+  <view id="title">字体样式设置</view>
+  <view style="font-family:楷体;font-size:30px">
+    <view>利用style设置</view>
+    <view>字体为楷体,30像素</view>
+  </view>
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  <view class="fontStyle">
+    <view>利用class设置字体样式</view>
+    <view>字体倾斜加粗25像素</view>
+  </view>
+</view>
