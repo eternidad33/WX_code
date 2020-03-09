@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">Flex页面布局</view>
+
+  <view style="display:flex;text-align:center;line-height:80rpx;">
+    <view style="background-color:red;flex-grow:1">1</view>
+    <view style="background-color:green;flex-grow:1">2</view>
+    <view style="background-color:blue;flex-grow:1">3</view>
+  </view>
+  -------------------------------
+  <view style="display:flex;text-align:center;height:300rpx">
+    <view style="background-color:red;line-height:300rpx;width:250rpx">1</view>
+    <view style="display:flex;flex-direction:column;flex-grow:1">
+      <view style="background-color:green;flex-grow:1">2</view>
+      <view style="background-color:blue;flex-grow:1">3</view>
+    </view>
+  </view>
+  --------------------------------
+  <view style="display:flex;flex-direction:column;height:300rpx;text-align:center">
+    <view style="background-color:red;height:100rpx;line-height:100rpx">1</view>
+    <view style="display:flex;flex-direction:row;flex-grow:1">
+      <view style="background-color:green;flex-grow:1">2</view>
+      <view style="background-color:blue;flex-grow:1">3</view>
+    </view>
+  </view>
+</view>
