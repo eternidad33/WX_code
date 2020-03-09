@@ -1,0 +1,91 @@
+/**index.wxss**/
+
+.bg1 {
+  height: 180px;
+  width: 200px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.box1 {
+  width: 100px;
+  height: 60px;
+  background-color: red;
+  margin: 0 auto;
+  line-height: 60px;
+}
+
+.box2 {
+  width: 100px;
+  height: 60px;
+  background-color: yellow;
+  line-height: 60px;
+  float: left;
+}
+
+.box3 {
+  width: 100px;
+  height: 60px;
+  background-color: green;
+  line-height: 60px;
+  float: right;
+}
+
+.box4 {
+  width: 100px;
+  height: 60px;
+  background-color: blue;
+  line-height: 60px;
+  clear: both;
+  margin: 0 auto;
+}
+
+.bg2 {
+  width: 250px;
+  height: 220px;
+  margin: 10px auto;
+}
+
+.header {
+  width: 250px;
+  height: 40px;
+  background-color: rgb(230, 74, 74);
+  text-align: center;
+  line-height: 40px;
+}
+
+.leftBar {
+  width: 50px;
+  height: 120px;
+  background-color: rgb(112, 238, 74);
+  text-align: center;
+  line-height: 120px;
+  float: left;
+}
+
+.main {
+  width: 130px;
+  height: 120px;
+  background-color: rgb(236, 159, 232);
+  text-align: center;
+  line-height: 120px;
+  float: left;
+}
+
+.rightBar {
+  width: 70px;
+  height: 120px;
+  background-color: rgb(74, 205, 238);
+  text-align: center;
+  line-height: 120px;
+  float: left;
+}
+
+.footer {
+  width: 250px;
+  height: 60px;
+  background-color: rgb(162, 170, 161);
+  text-align: center;
+  line-height: 60px;
+  clear: both;
+}
