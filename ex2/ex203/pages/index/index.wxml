@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">导航栏和图标</view>
+  <navigator url="/pages/HelloWeChat/index">
+    <view class="waikuang">
+      <icon type="success" class="myleft"></icon>
+      <view class="mycenter">HelloWeChat!</view>
+      <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+  </navigator>
+  <navigator url="/pages/navigator/index">
+    <view class="waikuang">
+      <icon type="success" class="myleft"></icon>
+      <view class="mycenter">Navigation</view>
+      <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+  </navigator>
+</view>
