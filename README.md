@@ -378,6 +378,25 @@ Math对象
 | `valueOf()`        | 返回一个Number对象的基本数字值                     |
 
 
+### 计时器
+
+**setTimeOut()**
+
+函数 `number setTimeout(function callback,number delay, any rest)`。设定一个计时器，在计时到期以后执行注册的回调函数。
+
+**clearTimeOut()**
+
+函数 `clearTimeout(number timeoutID)`。取消由`setTimeout`设置的计时器。参数 `timeoutID`为要取消的计时器的ID。
+
+**setInterval()**
+
+函数`number setInterval(function callback, number delay, any rest)`。设定一个计时器，按照指定的周期（以毫秒计）来执行注册的回调函数。
+
+**clearInterval()**
+
+函数 `clearInterval(number intervalID)`。取消由 `setInterval`设置的计时器。参数`intervalID`为要取消的计时器的ID。
+
+
 
 
 ## 小程序基本架构
