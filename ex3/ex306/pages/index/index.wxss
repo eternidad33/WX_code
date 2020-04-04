@@ -1,0 +1,28 @@
+/**index.wxss**/
+
+.box {
+  border: 1px solid silver;
+  margin: 8px;
+}
+
+.title {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.flex-wrp {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50rpx;
+}
+
+.item {
+  width: 300rpx;
+  height: 500rpx;
+}
+
+.btn {
+  margin: 20rpx auto;
+}
