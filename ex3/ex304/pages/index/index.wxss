@@ -1,0 +1,11 @@
+/**index.wxss**/
+.box{
+border: 1px solid silver;
+margin: 5px;
+}
+.title{
+text-align: center;
+color: red;
+font-size: 18px;
+margin: 5px;
+}
