@@ -25,6 +25,7 @@ bin-release/
 .idea
 /idea/
 .vscode/
+.out/
 *.ipr
 *.iml
 *.iws
