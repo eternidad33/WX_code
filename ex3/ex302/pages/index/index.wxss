@@ -1,0 +1,48 @@
+/**index.wxss**/
+
+page {
+  background: #f1f0f6;
+}
+
+.box {
+  border: 1px solid silver;
+  margin: 5px;
+  padding: 3px;
+}
+
+.title {
+  color: red;
+  font-size: 18px;
+  text-align: center;
+  margin: 3px;
+}
+
+.placeholder {
+  font-size: 15px;
+}
+
+input {
+  background: #fff;
+  height: 120rpx;
+  margin: 10px;
+  padding-left: 8px;
+  border: solid 1px silver;
+}
+
+button {
+  margin: 30rpx 50rpx;
+  background-color: red;
+  color: white;
+}
+
+.content {
+  background: white;
+  padding: 10px;
+  color: red;
+}
+
+.content-item {
+  padding: 3rpx;
+  font-size: 16px;
+  line-height: 30px;
+}
