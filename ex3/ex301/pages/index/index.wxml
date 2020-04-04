@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view id='box'>
+  <view id='title'>条件语句和数学函数</view>
+  <view>
+  <input placeholder="请输入X的值" bindblur="calc"></input>
+  </view>
+  <view>计算y的值为：{{y}}</view>
+</view>

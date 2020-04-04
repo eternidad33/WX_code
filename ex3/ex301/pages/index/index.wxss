@@ -1,0 +1,17 @@
+/**index.wxss**/
+#box{
+  border: solid 1px silver;
+  margin: 5px;
+  padding: 5px;
+}
+#title{
+  text-align: center;
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+}
+input{
+  border-bottom:solid 1px blue ;
+  margin: 20px 0;
+}
