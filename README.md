@@ -394,4 +394,58 @@ Math 对象
 
 ## 小程序基本架构
 
+### 基本架构
+
+利用 `app.json`文件对小程序进行全局配置
+
+利用同名`.json`文件对本页面窗口表现进行配置‘
+
+**全局配置**
+
+| 属性           | 类型   | 必填 | 描述               |
+| -------------- | ------ | ---- | ------------------ |
+| pages          | string | 是   | 页面路径列表       |
+| window         | Object | 否   | 全局的默认窗口表现 |
+| tabBar         | Object | 否   | 底部 tab 栏的表现  |
+| networkTimeout | object | 否   | 网络超时时间       |
+
+**Pages 配置**
+
+pages 用于指定小程序由哪些页面组成，每一项都对应一个页面的路径（含文件名）信息。文件名不需要写文件后缀，框架会自动去寻找对应位置的`.json`，`.js`，`.wxml`，`.wxss`四个文件进行处理。数组的第一项代表小程序的初始页面（首页）。小程序中新增/减少页面，都需要对 pages 数组进行修改。
+
+**Window 配置**
+
+| 属性                          | 类型     | 描述                                |
+| ----------------------------- | -------- | ----------------------------------- |
+| navigationBarBackground Color | HexColor | 导航栏背景颜色，如#000000           |
+| navigationBarTextStyle        | string   | 导航栏标题颜色，仅支持 black/ white |
+| navigationBarTitleText        | string   | 导航栏标题文字内容                  |
+| backgroundColor               | HexColor | 窗口的背景色                        |
+
+**tabBar 配置**
+
+| 属性            | 类型     | 描述                                      |
+| --------------- | -------- | ----------------------------------------- |
+| color           | HexColor | tab 上的文字的默认颜色                    |
+| selectedColor   | HexColor | tab 上选中文字的颜色                      |
+| backgroundColor | HexColor | tab 的背景色                              |
+| borderStyle     | string   | tabbar 上边框的颜色，仅支持 black / white |
+
+**list 配置**
+
+| 属性             | 类型   | 必填 | 说明                                                                  |
+| ---------------- | ------ | ---- | --------------------------------------------------------------------- |
+| pagePath         | string | 是   | 页面路径，必须在 pages 中先定义                                       |
+| text             | string | 是   | tab 上按钮文字                                                        |
+| iconPath         | string | 否   | 图片路径，icon 大小限制为 40kb，建议尺寸为 81px\*81px，不支持网络图片 |
+| selectedIconPath | string | 否   | 选中时的图片路径                                                      |
+
+### 执行顺序
+
+### 数据及事件绑定
+
+### 变量和函数的作用域及模块化
+
+### 条件渲染
+
 ## 渲染与引用
