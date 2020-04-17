@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/guanyu/guanyu",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Vigilr小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#00f",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/home-off.png",
+        "selectedIconPath": "/images/home-on.png"
+      },
+      {
+        "pagePath": "pages/guanyu/guanyu",
+        "text": "关于",
+        "iconPath": "/images/guanyu-off.png",
+        "selectedIconPath": "/images/guanyu-on.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "/images/jiaoxue-off.png",
+        "selectedIconPath": "/images/jiaoxue-on.png"
+      }
+    ]
+  }
+}

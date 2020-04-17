@@ -1,0 +1,5 @@
+<!--pages/guanyu/guanyu.wxml-->
+<view class=".title">
+关于页面
+</view>
+<text>pages/guanyu/guanyu.wxml</text>
