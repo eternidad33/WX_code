@@ -1,0 +1,23 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.box{
+  border: solid 1px red;
+  margin: 5px;
+  padding: 5px;
+}
+view{
+  margin: 10px;
+}
+.title{
+  font-size: 16px;
+  color: red;
+  text-align: center;
+}
