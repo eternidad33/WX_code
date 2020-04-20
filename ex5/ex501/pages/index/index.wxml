@@ -3,10 +3,11 @@
   <view class='title'>成绩等级计算器</view>
   <view>请输入你的考试成绩</view>
   <input bindblur='scoreInput' placeholder='在此输入成绩'></input>
-  <view wx:if='{{score>100||score<0}}'>成绩输入有误!</view>
+  <!-- <view wx:if='{{score>100||score<0}}'>成绩输入有误!</view>
   <view wx:elif='{{score>90}}'>成绩等级：优秀</view>
   <view wx:elif='{{score>80}}'>成绩等级：良好</view>
   <view wx:elif='{{score>70}}'>成绩等级：中等</view>
   <view wx:elif='{{score>=60}}'>成绩等级：及格</view>
-  <view wx:else>成绩等级：不及格</view>
+  <view wx:else>成绩等级：不及格</view> -->
+  <view>成绩等级：{{grade}}</view>
 </view>
