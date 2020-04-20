@@ -1,0 +1,11 @@
+/** index.wxss **/
+
+.con {
+  font-size: 14px; /** 设置字体大小 **/
+  margin: 10px; /** 设置外边距 **/
+}
+
+.inline {
+  display: inline-block; /** 设置布局 **/
+  width: 65px; /** 设置宽度 **/
+}
