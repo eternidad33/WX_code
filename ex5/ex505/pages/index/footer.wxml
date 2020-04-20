@@ -1,0 +1,4 @@
+<!--pages/kj/demo112-include/footer.wxml-->
+<view class='footer' style='height:100px;'>
+  版权所有 @河北大学
+</view>

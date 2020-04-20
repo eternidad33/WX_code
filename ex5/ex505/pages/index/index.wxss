@@ -1,0 +1,14 @@
+/* pages/kj/demo112-include/index.wxss */
+.header{
+  margin: 20rpx;
+  color: blue;
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer{
+  margin: 20rpx;
+  font-size: 15px;
+  text-align: center;
+}
