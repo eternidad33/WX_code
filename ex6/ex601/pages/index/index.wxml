@@ -1,0 +1,19 @@
+<!--pages/zj/CurrencyExchange/index.wxml-->
+<view class='box'>
+  <view class='title'>货币兑换</view>
+  <form bindsubmit='calc' bindreset='reset'>
+    <input name='cels' placeholder='请输入人民币金额' type='number' auto-focus='true'></input>
+    <view class='btnLayout'>
+      <button type='primary' form-type='submit'>计算</button>
+      <button type='primary' form-type='reset'>清除</button>
+    </view>
+    <view class='textLayout'>
+      <text>兑换美元为：{{M}}</text>
+      <text>兑换英镑为：{{Y}}</text>
+      <text>兑换港币为：{{G}}</text>
+      <text>兑换欧元为：{{O}}</text>
+      <text>兑换韩元为：{{H}}</text>
+      <text>兑换日元为：{{R}}</text>
+    </view>
+  </form>
+</view>

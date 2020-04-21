@@ -1,0 +1,30 @@
+/* pages/zj/CurrencyExchange/index.wxss */
+
+input {
+  border-bottom: 2px solid blue; /* 设置下边框线 */
+  margin: 10px 0; /* 设置上下外边距为10px，左右外边距为0 */
+  font-size: 20px; /* 设置字体大小 */
+  color: red; /* 设置字体颜色 */
+  padding: 15px; /* 设置内边距 */
+}
+
+button {
+  width: 30%; /* 设置按钮宽度 */
+  margin: 10px; /* 设置按钮外边距 */
+}
+
+.btnLayout {
+  display: flex; /* 设置布局方式为弹性盒子布局 */
+  flex-direction: row; /* 设置横向为弹性盒子的主轴方向 */
+  justify-content: center; /* 沿主轴方向居中对齐 */
+}
+
+.textLayout {
+  display: flex;
+  flex-direction: column; /* 设置纵向为弹性盒子的主轴方向 */
+  align-items: flex-start; /* 沿交叉轴方向左对齐 */
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  line-height: 40px; /* 设置行高 */
+}
