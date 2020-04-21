@@ -1,0 +1,11 @@
+/* pages/zj/index.js/demo202-TriangleArea/index.wxss */
+
+input, button, text {
+  /* 定义三种组件的样式 */
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+input {
+  border-bottom: 1px solid blue; /* 设置input组件的下边框样式 */
+}
