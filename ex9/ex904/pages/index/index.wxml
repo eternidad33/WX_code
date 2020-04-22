@@ -1,0 +1,10 @@
+<!--pages/API/Camera/index.wxml-->
+<view class="box">
+  <view class='title'>照相和摄像</view>
+  <view>
+    <button type='primary' bindtap="chooseimage">获取图片</button>
+    <image mode="scaleToFill" src="{{imgPath}}"></image>
+    <button type='primary' bindtap="chooseVideo">获取视频</button>
+    <video class="video" src="{{videoPath}}"></video>
+  </view>
+</view>
