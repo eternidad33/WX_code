@@ -1,0 +1,18 @@
+<!--pages/API/ParamDrawing/index.wxml-->
+<view class='box'>
+  <view class='title'>参数绘图</view>
+  <view class='style01'>
+    <canvas canvas-id='myCanvas'></canvas>
+  </view>
+  <view>
+    <form bindsubmit='drawCircle' bindreset='clear'>
+      <input name='x' type='number' placeholder='请输入圆心x坐标'></input>
+      <input name='y' type='number' placeholder='请输入圆心y坐标'></input>
+      <input name='radius' type='number' placeholder='请输入圆的半径'></input>
+      <view class='style02'>
+        <button type='primary' form-type='submit'>画圆</button>
+        <button type='primary' form-type='reset'>清空</button>
+      </view>
+    </form>
+  </view>
+</view>

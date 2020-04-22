@@ -1,0 +1,29 @@
+/* pages/API/ParamDrawing/index.wxss */
+
+.style01 {
+  width: 100%;
+}
+
+canvas {
+  border: 1px solid springgreen;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 20px;
+  border-bottom: 1px solid rebeccapurple;
+}
+
+.style02 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* 水平居中对齐 */
+  margin-top: 20px;
+}
+
+button {
+  width: 25%;
+  margin: 10px;
+}
