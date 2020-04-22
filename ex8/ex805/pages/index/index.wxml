@@ -1,0 +1,13 @@
+<!--pages/API/Deformation/index.wxml-->
+<view class='box'>
+  <view class='title'>变形</view>
+  <view class='style01'>
+    <canvas canvas-id='myCanvas'></canvas>
+  </view>
+  <view class='style02'>
+    <button type='primary' bindtap='drawRect'>绘图</button>
+    <button type='primary' bindtap='scale'>放大</button>
+    <button type='primary' bindtap='translate'>移动</button>
+    <button type='primary' bindtap='rotate'>旋转</button>
+  </view>
+</view>
