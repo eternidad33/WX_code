@@ -1,0 +1,40 @@
+/* pages/API/FreeDrawing/index.wxss */
+
+canvas {
+  /* 画布样式 */
+  width: 100%;
+  height: 360px;
+  border: 1px solid springgreen;
+}
+
+.toolStyle01 {
+  /* 底部画图工具总体布局 */
+  position: absolute; /* 生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。 */
+  bottom: 10px; /* 距离页面底部10px */
+  display: flex;
+  flex-direction: row;
+}
+
+.toolSyle02 {
+  /* 底部画图工具分组布局 */
+  display: flex;
+  flex-direction: column;
+}
+
+.toolStyle {
+  /* 底部画图工具样式 */
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ccc;
+  border-radius: 50%; /* 边框半径 */
+  text-align: center;
+  line-height: 60px;
+  background: green;
+  color: #fff;
+  margin: 10px 20px;
+}
+
+.changeBc {
+  /* 底部画图工具被点击后的背景颜色 */
+  background: #f00;
+}
