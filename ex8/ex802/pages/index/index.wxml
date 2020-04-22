@@ -1,0 +1,6 @@
+<!--pages/kj/FactorialCalc/index.wxml-->
+<view class="box">
+  <view class='title'>阶乘计算器</view>
+  <input type='number' bindinput='getInput' placeholder='请输入要求阶乘的数'></input>
+  <text>结果为：{{result}}</text>
+</view>

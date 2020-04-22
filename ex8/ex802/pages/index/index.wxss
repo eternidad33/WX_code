@@ -1,0 +1,8 @@
+/* pages/kj/FactorialCalc/index.wxss */
+
+input {
+  border-bottom: 3px solid blue;
+  height: 40px;
+  width: 200px;
+  margin: 20px 0;
+}
