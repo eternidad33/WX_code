@@ -1,0 +1,7 @@
+<!--pages/zj/FacialMakeup/index.wxml-->
+<view class='box'>
+  <view class='title'>变脸游戏</view>
+  <view>
+    <image src="{{imgArr[index]}}" bindtap="changeFace" mode='widthFix'></image>
+  </view>
+</view>
