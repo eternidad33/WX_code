@@ -1,0 +1,28 @@
+/* pages/API/Storage/index.wxss */
+
+page {
+  /* 设置页面样式 */
+  text-align: center; /* 设置页面中文本的水平对齐方式为居中 */
+}
+
+.btnLayout {
+  /* 设置button组件的布局 */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* 设置主轴方向组件的排列方式 */
+}
+
+button {
+  /* 设置button组件的样式 */
+  width: 45%;
+  margin: 5px;
+}
+
+.storageInfo {
+  /* 设置text组件所在区域的布局方式 */
+  margin: 20rpx 0; /* 设置上下边距为20rpx，左右边距为0 */
+  padding: 20rpx; /* 设置内边距 */
+  background-color: #f8f8f8;
+  text-align: left;
+  border: 1px solid seagreen;
+}
