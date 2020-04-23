@@ -1,0 +1,5 @@
+/* pages/API/Brightness/index.wxss */
+
+view, slider, button, switch {
+  margin: 20rpx;
+}
