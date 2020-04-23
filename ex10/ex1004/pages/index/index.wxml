@@ -1,0 +1,30 @@
+<!--pages/API/Sensors/index.wxml-->
+<view class='box'>
+  <view class='title'>传感器</view>
+  <view class='btnLayout'>
+    <button type='primary' bindtap='startCompass'>启动罗盘监听</button>
+    <button type='primary' bindtap='stopCompass'>停止罗盘监听</button>
+  </view>
+  <view class='txtLayout'>
+    <view>罗盘方位角：{{resCompass.direction}}</view>
+    <view>罗盘精度：{{resCompass.accuracy}}</view>
+  </view>
+  <view class='btnLayout'>
+    <button type='primary' bindtap='startAcc'>启动加速度计</button>
+    <button type='primary' bindtap='stopAcc'>停止加速度计</button>
+  </view>
+  <view class='txtLayout'>
+    <view>X轴方向加速度：{{resAcc.x}}</view>
+    <view>Y轴方向加速度：{{resAcc.y}}</view>
+    <view>Z轴方向加速度：{{resAcc.z}}</view>
+  </view>
+  <view class='btnLayout'>
+    <button type='primary' bindtap='startGyroscope'>启动陀螺仪</button>
+    <button type='primary' bindtap='stopGyroscope'>停止陀螺仪</button>
+  </view>
+  <view class='txtLayout'>
+    <view>X轴方向角速度：{{resGyroscope.x}}</view>
+    <view>Y轴方向角速度：{{resGyroscope.y}}</view>
+    <view>Z轴方向角速度：{{resGyroscope.z}}</view>
+  </view>
+</view>
