@@ -1,0 +1,5 @@
+/* pages/API/NetworkStatus/index.wxss */
+
+view {
+  margin: 10rpx 0;
+}
