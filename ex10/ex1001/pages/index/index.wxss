@@ -1,0 +1,25 @@
+/* pages/API/File/index.wxss */
+
+page {
+  text-align: center;
+}
+
+.btnLayout {
+  /*设置按钮布局*/
+  display: flex; /*设置布局类型*/
+  flex-direction: row; /*设置布局方向*/
+  justify-content: space-around; /*设置主轴方向控件的排列方式*/
+}
+
+button {
+  width: 45%;
+  margin: 5px;
+}
+
+.fileInfo {
+  /*设置显示文件信息区域的样式*/
+  margin: 10rpx 0; /*设置上下边距为10rpx，左右边距为0px*/
+  background-color: #f8f8f8;
+  text-align: left;
+  border: 1px solid seagreen; /*设置边框线的宽度、线条类型和颜色*/
+}
